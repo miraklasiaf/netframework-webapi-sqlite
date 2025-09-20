@@ -1,0 +1,36 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TodoApp.API", "src/TodoApp.API/TodoApp.API.csproj", "{F5A17B1E-8902-4A8F-BD72-C57B209B7E5D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TodoApp.CLI", "src/TodoApp.CLI/TodoApp.CLI.csproj", "{D149A286-BC83-40AE-8259-F2F8FAF656D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TodoApp.DAL", "src/TodoApp.DAL/TodoApp.DAL.csproj", "{5D65A254-C97E-439C-A9A0-752FDED5FC63}"
+EndProject
+Global
+GlobalSection(SolutionConfigurationPlatforms) = preSolution
+Debug|Any CPU = Debug|Any CPU
+Release|Any CPU = Release|Any CPU
+EndGlobalSection
+GlobalSection(ProjectConfigurationPlatforms) = postSolution
+{F5A17B1E-8902-4A8F-BD72-C57B209B7E5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+{F5A17B1E-8902-4A8F-BD72-C57B209B7E5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+{F5A17B1E-8902-4A8F-BD72-C57B209B7E5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+{F5A17B1E-8902-4A8F-BD72-C57B209B7E5D}.Release|Any CPU.Build.0 = Release|Any CPU
+{D149A286-BC83-40AE-8259-F2F8FAF656D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+{D149A286-BC83-40AE-8259-F2F8FAF656D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+{D149A286-BC83-40AE-8259-F2F8FAF656D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+{D149A286-BC83-40AE-8259-F2F8FAF656D9}.Release|Any CPU.Build.0 = Release|Any CPU
+{5D65A254-C97E-439C-A9A0-752FDED5FC63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+{5D65A254-C97E-439C-A9A0-752FDED5FC63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+{5D65A254-C97E-439C-A9A0-752FDED5FC63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+{5D65A254-C97E-439C-A9A0-752FDED5FC63}.Release|Any CPU.Build.0 = Release|Any CPU
+EndGlobalSection
+GlobalSection(SolutionProperties) = preSolution
+HideSolutionNode = FALSE
+EndGlobalSection
+GlobalSection(ExtensibilityGlobals) = postSolution
+SolutionGuid = {4B4CFACC-2F0D-4C90-86C7-423CE003795A}
+EndGlobalSection
+EndGlobal
